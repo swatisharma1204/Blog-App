@@ -121,7 +121,7 @@ function CreateBlog() {
             />
           </div>
 
-          {/* Image upload */}
+          {/* Image upload section */}
           <div>
             <label className="block text-sm mb-1">Image Upload</label>
             <input 
