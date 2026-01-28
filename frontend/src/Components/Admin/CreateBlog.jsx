@@ -160,7 +160,7 @@ function CreateBlog() {
             </select>
           </div>
           <div>
-            <Autocomplete
+            <Autocomplete 
               disablePortal
               options={["Technology", "Startup", "Lifestyle", "Tourism"]}
               sx={{ width: 300 }}
