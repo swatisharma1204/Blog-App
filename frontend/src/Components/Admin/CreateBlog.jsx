@@ -164,7 +164,7 @@ function CreateBlog() {
               disablePortal
               options={["Technology", "Startup", "Lifestyle", "Tourism"]}
               sx={{ width: 300 }}
-              value={blogData.category}
+              value={blogData.category} 
               onChange={(e, val) => {
                 setBlogData({
                   title: blogData.title,
