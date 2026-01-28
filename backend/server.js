@@ -141,7 +141,7 @@ app.get("/getBlog", async (req, res) => {
   let output = {
     status: false,
     blogs: [],
-    message: "failed",
+    message: "task failed",
   };
   const response = await db.collection("blogs").find({status: "ACTIVE"}).toArray();
   if (response) {
