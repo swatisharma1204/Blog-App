@@ -152,7 +152,7 @@ function CreateBlog() {
                   category: blogData.category,
                 })
               }
-              className="bg-slate-200 rounded"
+              className="bg-slate-200 rounded "
             >
               <option value="">Select status</option>
               <option value="Draft">Draft</option>
