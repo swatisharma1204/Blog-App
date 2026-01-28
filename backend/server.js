@@ -158,7 +158,7 @@ app.post("/deleteBlog", async (req, res) => {
     message: "failed",
   };
   const { blogId, deletedBy } = req.body;
-  // console.log("req.body: ", req.body)
+  // console.log("req.body: ", req.body) 
   const adminData = await db.collection("accounts").findOne(
     { _id: new ObjectId(deletedBy) },
     {
