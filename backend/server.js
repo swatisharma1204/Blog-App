@@ -123,7 +123,7 @@ app.post("/createBlog" ,async (req, res) => {
 app.post("/createAdmin", async (req, res) => {
   const output = {
     status: false,
-    message: "failed",
+    message: "failed", 
   };
   const adminData = req.body;
   console.log("admin data: ", adminData);
