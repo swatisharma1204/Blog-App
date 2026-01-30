@@ -76,7 +76,7 @@ app.post("/createBlog" ,async (req, res) => {
     message: "failed",
   };
   const { title, blogContent, blogStatus, category, userId, image } = req.body;
-  // console.log("userId:", userId);
+  
 
   if (userId) {
     const adminData = await db.collection("accounts").findOne(
