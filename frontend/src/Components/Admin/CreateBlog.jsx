@@ -96,7 +96,7 @@ function CreateBlog() {
                 //   blogContent: blogData.blogContent,
                 //   blogStatus: blogData.blogStatus,
                 //   category:  blogData.category
-                // })
+                // }) 
               }}
               className="w-full border rounded-md p-2"
               placeholder="Enter blog title"
