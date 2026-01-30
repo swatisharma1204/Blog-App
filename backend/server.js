@@ -88,7 +88,6 @@ app.post("/createBlog" ,async (req, res) => {
         },
       }
     );
-    // console.log(adminData)
     if (adminData) {
       const response = await db.collection("blogs").insertOne({
         title,
