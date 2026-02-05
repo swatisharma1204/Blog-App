@@ -8,15 +8,15 @@ function EditProfile() {
         <form className="space-y-4">
           <div className="">
             <label className="block mb-1">Name</label>
-            <input className="border p-2 w-full" placeholder="name" />
+            <input type="text" className="border p-2 w-full" placeholder="name" />
           </div>
           <div className="">
             <label className="block mb-1">Email</label>
-            <input className="border p-2 w-full" placeholder="email" />
+            <input type="text" className="border p-2 w-full" placeholder="email" />
           </div>
           <div className="">
             <label className="block mb-1">Password</label>
-            <input className="border p-2 w-full" placeholder="password" />
+            <input type="password" className="border p-2 w-full" placeholder="password" />
           </div>
           <div className="">
             <label className="block mb-1">Upload Image</label>
